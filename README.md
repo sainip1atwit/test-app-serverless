@@ -78,5 +78,6 @@ When you are done developing, don't forget to run `serverless deploy` to deploy 
 ### Tutorial
 
 Using the following YouTube tutorial
+current time marker: 29:44
 
 https://www.youtube.com/watch?v=cxgAN7T3rq8
