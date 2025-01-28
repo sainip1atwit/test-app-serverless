@@ -6,6 +6,8 @@ service: test-app-serverless
 provider:
   name: aws
   runtime: nodejs22.x
+  environment:
+    DATABASE_URL: ${env:DATA_BASE_URL, "database not found"}
 
 functions:
   api:
